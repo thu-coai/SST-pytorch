@@ -50,7 +50,7 @@ def modify_args(args):
 	args.epochs = 1
 	args.batch_per_epoch = 5
 	args.batch_size = 5
-	args.datapath = os.path.join(path, 'tests', 'dataloader', 'SST')
+	args.datapath = os.path.join(path, 'tests', 'dataloader', 'dummy_sst')
 
 def test_train(mocker):
 	def side_effect_train(args, *others):
