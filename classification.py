@@ -165,7 +165,7 @@ class Classification(BaseModel):
 		args = self.param.args
 		dm = self.param.volatile.dm
 
-		metric = dm.get_accuracy_metric()
+		metric = dm.get_metric()
 		batch_num, batches = self.get_batches(dm, key)
 		logging.info("eval accuracy")
 		for incoming in tqdm.tqdm(batches, total=batch_num):
