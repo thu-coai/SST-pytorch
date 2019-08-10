@@ -1,3 +1,5 @@
+[![Main Repo](https://img.shields.io/badge/Main_project-cotk-blue.svg?logo=github)](https://github.com/thu-coai/cotk)
+[![This Repo](https://img.shields.io/badge/Model_repo-SST--pytorch-blue.svg?logo=github)](https://github.com/thu-coai/SST-pytorch)
 [![Coverage Status](https://coveralls.io/repos/github/thu-coai/SST-pytorch/badge.svg?branch=master)](https://coveralls.io/github/thu-coai/SST-pytorch?branch=master)
 [![Build Status](https://travis-ci.com/thu-coai/SST-pytorch.svg?branch=master)](https://travis-ci.com/thu-coai/SST-pytorch)
 
