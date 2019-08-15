@@ -3,8 +3,6 @@
 [![Coverage Status](https://coveralls.io/repos/github/thu-coai/SST-pytorch/badge.svg?branch=master)](https://coveralls.io/github/thu-coai/SST-pytorch?branch=master)
 [![Build Status](https://travis-ci.com/thu-coai/SST-pytorch.svg?branch=master)](https://travis-ci.com/thu-coai/SST-pytorch)
 
-This is a model from cotk, click here to our [main repo](https://github.com/thu-coai/cotk).
-
 # Seq2Seq -- a pytorch implementation
 
 SST(Stanford Sentiment Treebank) is a benchmark task for sentiment classification. Here we use a simple GRU+MLP model for this task.
