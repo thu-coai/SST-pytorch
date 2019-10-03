@@ -33,8 +33,8 @@ def run(*argv):
 
 	parser.add_argument('--dataset', type=str, default='SST',
 		help='Dataloader class. Default: SST')
-	parser.add_argument('--datapath', type=str, default='resources://SST',
-		help='Directory for data set. Default: resources://SST')
+	parser.add_argument('--datapath', type=str, default='resources://SST#SST',
+		help='Directory for data set. Default: resources://SST#SST')
 	parser.add_argument('--epoch', type=int, default=100,
 		help="Epoch for trainning. Default: 100")
 	parser.add_argument('--wvclass', type=str, default='Glove',
