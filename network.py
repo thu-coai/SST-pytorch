@@ -37,7 +37,7 @@ class EmbeddingLayer(nn.Module):
 		self.param = param
 		volatile = param.volatile
 
-		self.embLayer = nn.Embedding(volatile.dm.vocab_size, args.embedding_size)
+		self.embLayer = nn.Embedding(volatile.dm.frequent_vocab_size, args.embedding_size)
 		self.embLayer.weight = nn.Parameter(torch.Tensor(volatile.wordvec))
 
 	def forward(self, incoming):
